@@ -1,14 +1,11 @@
-h1 {
-    color: aquamarine;
+html{
+    background: url(/IMG/bg.jpg);
+    font-family: 'Share Tech', sans-serif;
+    background-size: 100%;
 }
-h2
-{
-    color: orange;
-}
-div{
-    width: 400px;
-    height: 200px;
-    background: blue;
-    color: green;
-    border: 4px dashed red;
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

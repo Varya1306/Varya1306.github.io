@@ -1,0 +1,14 @@
+h1 {
+    color: aquamarine;
+}
+h2
+{
+    color: orange;
+}
+div{
+    width: 400px;
+    height: 200px;
+    background: blue;
+    color: green;
+    border: 4px dashed red;
+}
