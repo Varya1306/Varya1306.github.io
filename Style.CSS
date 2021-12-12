@@ -1,11 +1,40 @@
-html{
+html {
     background: url(/IMG/bg.jpg);
     font-family: 'Share Tech', sans-serif;
     background-size: 100%;
 }
 
-header{
+body {
+    margin: 0;
+}
+
+/* HEADER */
+
+header {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-around;
+    background: #F9F1F1;
+}
+
+.site-logo {
+    width: 500px;
+    text-align: center;
+}
+
+/* BAND START */
+
+.band-start {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+.band-name {
+    font-size: 150px;
+    color: white;
 }
